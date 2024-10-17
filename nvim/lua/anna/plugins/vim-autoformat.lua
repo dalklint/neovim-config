@@ -7,6 +7,6 @@ return {
 		vim.g.formatters_latex = { "latexindent" }
 
 		-- Bind a key to format
-		vim.api.nvim_set_keymap("n", "<leader>f", ":Autoformat<CR>", { noremap = true, silent = true })
+		vim.api.nvim_set_keymap("n", "<leader>fm", ":Autoformat<CR>", { noremap = true, silent = true })
 	end,
 }
