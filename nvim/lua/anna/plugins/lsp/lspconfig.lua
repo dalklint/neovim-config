@@ -104,6 +104,8 @@ return {
 						"--background-index",
 						"--clang-tidy",
 					}, -- optional additional arguments
+					root_dir = require("lspconfig").util.root_pattern("compile_commands.json", ".git")
+						or vim.fn.getcwd(),
 					filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto" },
 				})
 			end,

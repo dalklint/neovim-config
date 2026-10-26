@@ -31,7 +31,7 @@ return {
 				"html",
 				"cssls",
 				"clangd",
-				"tailwindcss",
+				--"tailwindcss",
 				"svelte",
 				"lua_ls",
 				"graphql",
@@ -47,7 +47,7 @@ return {
 				"stylua",
 				"isort",
 				"black",
-				"pylint",
+				-- "pylint",
 				"eslint_d",
 			},
 		})
